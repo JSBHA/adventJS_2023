@@ -5,15 +5,20 @@ function maxDistance(movements) {
 
     for ( let movement of movements){       
          if (movement === '>'){
+            //Mover a la dercha 
             position ++;
         } else if (movement === '<'){
+            //Mover Izquierda 
             position --;
         } else if (movement === '*'){
+            //Mover distancia maxima '*'
             distance ++;
         }
     }
     
-    return Math.abs(position) + distance
+     // Retornar la distancia máxima absoluta
+     return Math.abs(position) + distance;
+     
   }
 
   const movements = '>>*<'
