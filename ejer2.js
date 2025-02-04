@@ -4,7 +4,7 @@ function manufacture(gifts, materials) {
   for (const gift of gifts) {
     let availableMaterials = materials;
 
-    // Suponemos que podemos fabricar el regalo
+    //Suponemos que podemos fabricar el regalo
     let canBeManufactured = true;
 
     // Intentamos "usar" cada letra del regalo
@@ -17,7 +17,6 @@ function manufacture(gifts, materials) {
         break;
       }
     }
-
     // Si podemos fabricarlo, lo añadimos al resultado
     if (canBeManufactured) {
       result.push(gift);
@@ -28,5 +27,9 @@ function manufacture(gifts, materials) {
 
 const gifts = ["coroso", "puzzle"];
 const materials = "ocrs";
+console.log(manufacture(gifts, materials));
 
-console.log("hola", manufacture(gifts, materials));
+const gifts1 = ['tren', 'oso', 'pelota']
+const materials1 = 'tronesa'
+console.log(manufacture(gifts1, materials1));
+
