@@ -21,9 +21,12 @@ function findFirstRepeated(gifts) {
 
 const giftIds = [2, 1, 3, 5, 3, 2];
 const firstRepeatedId = findFirstRepeated(giftIds);
+console.log("Primer ID repetido en giftIds:", firstRepeatedId);
 
 const giftIds2 = [1, 2, 3, 4];
 const firstRepeatedId2 = findFirstRepeated(giftIds2);
+console.log("Primer ID repetido en giftIds2:", firstRepeatedId2);
 
 const giftIds3 = [5, 1, 5, 1];
 const firstRepeatedId3 = findFirstRepeated(giftIds3);
+console.log("Primer ID repetido en giftIds3:", firstRepeatedId3);
