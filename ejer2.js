@@ -29,7 +29,6 @@ const gifts = ["coroso", "puzzle"];
 const materials = "ocrs";
 console.log(manufacture(gifts, materials));
 
-const gifts1 = ['tren', 'oso', 'pelota']
-const materials1 = 'tronesa'
+const gifts1 = ["tren", "oso", "pelota"];
+const materials1 = "tronesa";
 console.log(manufacture(gifts1, materials1));
-
