@@ -12,9 +12,9 @@ function organizeGifts(gifts) {
     let palets = Math.floor(boxes / 5); // Palets (cada uno tiene 5 cajas)
     let remainingBoxes = boxes % 5; // Las cajas que quedan fuera de los palets
 
-    // Agregar los palets de forma 
+    // Agregar los palets de forma
     if (palets > 0) {
-        result += `[${giftType}]`.repeat(palets);  // Añadir palets
+      result += `[${giftType}]`.repeat(palets); // Añadir palets
     }
     // Agregar las cajas restantes, separadas de forma individual
     if (remainingBoxes > 0) {
